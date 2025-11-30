@@ -362,7 +362,6 @@ button {
     text-transform: uppercase;
     color         : var(--color-text);
     text-shadow   : var(--box-shadow);
-    text-align: center;
 }
 
     .hero__backmelody {
