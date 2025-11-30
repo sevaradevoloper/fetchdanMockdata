@@ -351,6 +351,7 @@ button {
     color         : var(--color-text);
     margin-bottom : 25px;
     text-shadow   : var(--box-shadow);
+    max-width: 400px;
 }
 
 .hero__b {
