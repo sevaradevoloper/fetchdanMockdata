@@ -334,7 +334,7 @@ button {
     }
 
     .hero__backmelody {
-        padding-bottom: 60%;
+        padding-bottom: 80%;
     }
 
     .hero__melody1,
@@ -350,7 +350,7 @@ button {
     width   : 300px;
     position: absolute;
     z-index : 5;
-    left    : 100px;
+    left    : 50px;
     top     : 110px;
     filter  : drop-shadow(0 8px 1px rgba(27, 27, 27, 0.372));
 }
