@@ -208,7 +208,6 @@ body {
     text-transform: uppercase;
     color         : var(--color-text);
     text-shadow   : var(--box-shadow);
-    text-align: center;
 }
 
 .hero__backmelody {
@@ -327,7 +326,7 @@ button {
     justify-items: left;
 }
 
-@media (max-width:700px) {
+@media (max-width:600px) {
     .navigation img {
     background-color: #fff;
     padding         : 7px;
@@ -351,7 +350,7 @@ button {
     color         : var(--color-text);
     margin-bottom : 25px;
     text-shadow   : var(--box-shadow);
-    max-width: 400px;
+    width: 400px;
 }
 
 .hero__b {
@@ -363,6 +362,7 @@ button {
     text-transform: uppercase;
     color         : var(--color-text);
     text-shadow   : var(--box-shadow);
+    text-align: left;
 }
 
     .hero__backmelody {
