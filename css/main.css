@@ -194,7 +194,7 @@ body {
     letter-spacing: 0%;
     text-transform: uppercase;
     color         : var(--color-text);
-    max-width     : 500px;
+    width: 550px;
     margin-bottom : 25px;
     text-shadow   : var(--box-shadow);
 }
@@ -208,6 +208,7 @@ body {
     text-transform: uppercase;
     color         : var(--color-text);
     text-shadow   : var(--box-shadow);
+    text-align: center;
 }
 
 .hero__backmelody {
@@ -327,11 +328,42 @@ button {
 }
 
 @media (max-width:700px) {
+    .navigation img {
+    background-color: #fff;
+    padding         : 7px;
+    border-radius   : 50%;
+    box-shadow      : var(--box-shadow);
+    width: 30px ;
+    height: 30px;
+}
     .hero__container {
         flex-direction : column;
         justify-content: center;
         align-items    : center;
+        
     }
+.hero__title {
+    font-weight   : 700;
+    font-size     : 80px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color         : var(--color-text);
+    margin-bottom : 25px;
+    text-shadow   : var(--box-shadow);
+}
+
+.hero__b {
+    font-family   : Roboto;
+    font-weight   : 500;
+    font-size     : 22px;
+    line-height   : 140%;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    color         : var(--color-text);
+    text-shadow   : var(--box-shadow);
+    text-align: center;
+}
 
     .hero__backmelody {
         padding-bottom: 80%;
